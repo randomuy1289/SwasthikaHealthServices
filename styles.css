@@ -167,3 +167,31 @@ button:hover {
 .content {
     font-family: 'Raleway', sans-serif;
 }
+
+.wellness {
+    display: flex;
+    padding: 10px 70px;
+}
+
+.flower .spa .mental-health {
+    flex: 1;
+}
+
+.spa .mental-health>h3 {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: underline;
+}
+
+.spa .mental-health {
+    display: flex;
+    flex-direction: column;
+}
+
+.mental-health {
+    padding-left: 40px;
+}
+
+.flower {
+    align-items: center;
+    width: 600px;
+}
